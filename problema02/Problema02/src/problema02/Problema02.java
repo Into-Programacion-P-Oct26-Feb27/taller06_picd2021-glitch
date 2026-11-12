@@ -43,13 +43,12 @@ public class Problema02 {
         
         switch (tipo){
             case 1: 
+                peaje = 2;
                 if (avaluo>30000){
                     cargo = 1.5;
-                    peaje = 2;
                     tipoV ="Vehículo liviano particular";
                     break;
                 }else{
-                     peaje = 2;
                 cargo = avaluo * 0.01;
                 tipoV ="Vehículo liviano particular";
                 break;
@@ -57,13 +56,12 @@ public class Problema02 {
                 }
                
             case 2:
+                peaje= 2.5;
                 if (avaluo>30000){
                     cargo =1.5;
-                    peaje= 2.5;
                     tipoV="Vehículo grande particular";
                     break;
                 }else{
-                    peaje= 2.5;
                     cargo = avaluo*0.02;
                     tipoV="Vehículo grande particular";
                 }
